@@ -17,9 +17,10 @@
         $max = 10; // numero di iterazioni da eseguire.
         
         /**
-         * Il ciclo for viene utilizzato quado è conosciuto il numero di iterazioni
-         * che dovranno essere eseguite; ovvero il numero di volte che il codice 
-         * contenuto tra le parentesi graffe dovrà essere interpretato.
+         * Il ciclo "for" viene utilizzato quado è conosciuto il numero di 
+         * iterazioni che dovranno essere eseguite; ovvero il numero di volte 
+         * che il codice contenuto tra le parentesi graffe dovrà essere 
+         * interpretato.
          */
         echo("Ciclo for: <br>");
         for($i = 0; $i < $max; $i++)
@@ -34,7 +35,7 @@
          * iterazioni da eseguire, ad esempio nel caso si vogliano leggere tutte le
          * righe di un file di testo.
          */
-        echo("Ciclo while:<br>");
+        echo("Ciclo while: <br>");
         $i = 0;
         while($i < $max)
         {
@@ -48,7 +49,7 @@
          * Il ciclo "do while" assomiglia al ciclo "while", ma viene utilizzato 
          * quando si sa che il codice deve essere eseguito almeno una volta.
          */
-        echo("Ciclo do while:<br>");
+        echo("Ciclo do while: <br>");
         $i = 0;
         do {
             echo($i);

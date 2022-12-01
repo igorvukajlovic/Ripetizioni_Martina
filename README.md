@@ -1,2 +1,2 @@
 # Ripetizioni_Martina
-Esercizi Martina
+Esercizi svoliti durante le ripetizioni.
