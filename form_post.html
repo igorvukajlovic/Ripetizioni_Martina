@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Login page - es. form post</title>
+    </head>
+    <body style="background-color: aquamarine;">
+        <form action="codice_login.php" method="post">
+            <label for="nomeutente">Nome utente</label>
+            <input type="text" name="username" id="nomeutente" required> <!-- "required" indica che il form non è valido finché questo campo non viene compilato -->
+            
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+
+            <!--<button type="submit">Login!</button>-->
+            <input type="submit" value="Login!"> <!-- Si può scrivere anche così, la forma sopra è più nuova (HTML5) -->
+        </form>
+    </body>
+</html>
